@@ -7,6 +7,7 @@ String seasons[] = {
 
 void setup() {
   size(640, 360);
+  smooth();
   glow = loadImage("glow.png");
   startUp();
 }
